@@ -16,7 +16,7 @@ body {
 
 .container {
   width: min(100% - 30px, 1080px);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   margin-inline: auto;
   display: flex;
   align-items: center;
@@ -99,9 +99,12 @@ body {
 }
 
 /* ---- HERO BANNER ----*/
+#hero .hero {
+  min-height: 100vh;
+}
+
 #hero {
-  background: #000 url(../img/hero-banner.jpg) top center / cover no-repeat
-    fixed;
+  background: #000 url(../img/hero-banner.jpg) top center / cover no-repeat fixed;
   position: relative;
   z-index: 1;
 }
@@ -155,4 +158,32 @@ body {
   100% {
     color: white;
   }
+}
+
+/* ---- ABOUT ---- */
+#about img {
+    height: 300px;
+    width: 230px;
+}
+
+#about .about {
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px;
+    gap: 30px;
+}
+
+#about .col-left {
+    width: 250px;
+    height: 360px;
+}
+
+#about .col-right h1{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#about .col-right h2{
+    font-weight: 500;
+    margin-bottom: 10px;
 }
