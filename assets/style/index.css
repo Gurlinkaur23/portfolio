@@ -162,8 +162,8 @@ body {
 
 /* ---- ABOUT ---- */
 #about img {
-    height: 300px;
-    width: 230px;
+    height: 360px;
+    width: 250px;
 }
 
 #about .about {
@@ -181,9 +181,18 @@ body {
 #about .col-right h1{
     font-weight: 600;
     margin-bottom: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#about .col-right span {
+    color:#c47f00;
 }
 
 #about .col-right h2{
     font-weight: 500;
+    margin-bottom: 10px;
+}
+#about .col-right p{
     margin-bottom: 10px;
 }
