@@ -232,12 +232,16 @@ body {
 
 #contact .contact-item {
     width: 250px;
-    height: 120px;
     padding: 30px;
     margin: 30px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0 #0000002c;
+    transition: 0.3s ease box-shadow;
+}
+
+#contact .contact-item:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
 }
 
 #contact .icon {
@@ -248,4 +252,26 @@ body {
 
 #contact .icon i {
     font-size: 28px;
+    transition: color 0.25s ease-in-out;
+}
+
+#contact .icon i:hover {
+    color: #d88b00;
+}
+
+#contact .contact-info p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#contact .contact-info a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    transition: color 0.25s ease-in-out;
+}
+
+#contact .contact-info a:hover {
+    color: #d88b00;
 }
