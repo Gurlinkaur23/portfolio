@@ -36,6 +36,20 @@ body {
     color:#c47f00
 }
 
+.brand {
+    width: 40%;
+    margin-right: auto;
+  }
+  
+.brand h1 span {
+      color: #c47f00;
+      text-transform: uppercase;
+  }
+  
+.brand h1 {
+      color: #fff;
+  }
+
 /* ---- HEADER ----*/
 #header {
   position: fixed;
@@ -56,20 +70,6 @@ body {
   justify-content: space-between;
   padding: 0 20px;
   gap: 20px;
-}
-
-#header .nav-name {
-  width: 40%;
-  margin-right: auto;
-}
-
-#header h1 span {
-    color: #c47f00;
-    text-transform: uppercase;
-}
-
-#header h1 {
-    color: #fff;
 }
 
 #header .nav-list nav {
@@ -269,9 +269,17 @@ body {
     text-decoration: none;
     color: #000;
     font-size: 15px;
+    font-weight: 500;
     transition: color 0.25s ease-in-out;
 }
 
 #contact .contact-info a:hover {
     color: #d88b00;
 }
+
+/* ---- FOOTER ---- */
+#footer {
+    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+
