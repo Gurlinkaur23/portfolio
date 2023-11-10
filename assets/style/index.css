@@ -23,6 +23,19 @@ body {
   justify-content: center;
 }
 
+.section-title {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.section-title span {
+    color:#c47f00
+}
+
 /* ---- HEADER ----*/
 #header {
   position: fixed;
@@ -176,18 +189,6 @@ body {
 #about .col-left {
     width: 250px;
     height: 360px;
-}
-
-#about .col-right h1{
-    font-weight: 600;
-    margin-bottom: 10px;
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-#about .col-right span {
-    color:#c47f00;
 }
 
 #about .col-right h2{
