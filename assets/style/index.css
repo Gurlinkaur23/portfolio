@@ -64,13 +64,13 @@ body {
   min-height: 8vh;
 }
 
-#header .nav-bar {
+/* #header .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
   gap: 20px;
-}
+} */
 
 #header .brand h1 span {
     color: #c47f00;
@@ -299,4 +299,32 @@ body {
 
 #footer p {
     color: #fff;
+}
+
+/* ------ Media queries ------ */
+
+/* 1200px and down */
+@media (max-width: 1200px) {
+    
+}
+
+/* 992px and down */
+@media (max-width: 992px) {
+    
+}
+
+/* 768px and down */
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
+
+/* 480px and down */
+@media (max-width: 480px) {
+   
 }
