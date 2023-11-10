@@ -23,8 +23,25 @@ body {
   justify-content: center;
 }
 
+/* ---- HEADER ----*/
+#header {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#header .header {
+    min-height: 8vh;
+}
+
+
+
+/* ---- HERO BANNER ----*/
 #hero {
-    background: #000 url(../img/hero-banner.jpg) center center / cover no-repeat fixed;
+    background: #000 url(../img/hero-banner.jpg) top center / cover no-repeat fixed;
     position: relative;
     z-index: 1;
 }
@@ -41,7 +58,7 @@ body {
     z-index: -1;
 }
 
-h1 {
+#hero h1 {
     font-size: 40px;
     position: relative;
     width: fit-content;
@@ -52,7 +69,7 @@ h1 {
     animation-delay: 1s;
 }
 
-h1 span {
+#hero h1 span {
     position: absolute;
     top: 0;
     left: 0;
