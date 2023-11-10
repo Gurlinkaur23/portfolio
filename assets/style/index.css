@@ -183,6 +183,7 @@ body {
     margin-bottom: 10px;
     font-size: 30px;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #about .col-right span {
@@ -195,4 +196,21 @@ body {
 }
 #about .col-right p{
     margin-bottom: 10px;
+}
+
+#about .col-left .about-img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#about .col-left .about-img::after {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid #c47f00;
+    z-index: -1;
 }
