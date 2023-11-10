@@ -72,6 +72,11 @@ body {
   gap: 20px;
 }
 
+#header .brand h1 span {
+    color: #c47f00;
+    text-transform: uppercase;
+}
+
 #header .nav-list nav {
   width: 60%;
   margin-left: auto;
@@ -279,7 +284,19 @@ body {
 
 /* ---- FOOTER ---- */
 #footer {
-    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    /* background: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+    background-color: #c47f00;
 }
 
+#footer .footer {
+    min-height: 70px;
+}
 
+#footer .brand h1 span {
+    color: #333;
+    text-transform: uppercase;
+}
+
+#footer p {
+    color: #fff;
+}
