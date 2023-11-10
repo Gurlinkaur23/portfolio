@@ -91,6 +91,11 @@ body {
     color: #fff;
     text-transform: uppercase;
     padding: 10px 20px;
+    transition: color 0.25s ease-in-out;
+}
+
+#header .nav-list ul li a:hover {
+    color: #c47f00;
 }
 
 /* ---- HERO BANNER ----*/
