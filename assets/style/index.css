@@ -120,7 +120,7 @@ body {
     font-weight: 600;
 }
 
-#header .hamburger {
+/* #header .hamburger {
     height: 50px;
     width: 50px;
     display: inline-block;
@@ -163,7 +163,7 @@ body {
 
 #header .hamburger .bar::before{
     bottom: 8px;
-}
+} */
 
 
 /* ---- HERO BANNER ----*/
