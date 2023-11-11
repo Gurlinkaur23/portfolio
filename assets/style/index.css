@@ -88,6 +88,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* z-index: 1; */
+  /* overflow-x: hidden; */
 }
 
 /* #header .nav-list ul {
@@ -117,6 +119,52 @@ body {
     color: #c47f00;
     font-weight: 600;
 }
+
+#header .hamburger {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    z-index: 100;
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+#header .hamburger .bar {
+    height: 2px;
+    width: 28px;
+    position: relative;
+    background-color: #fff;
+    z-index: -1;
+}
+
+#header .hamburger .bar::after, 
+#header .hamburger .bar::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    transition: 0.3s ease;
+    transition-property: top, bottom;
+}
+
+#header .hamburger .bar::after{
+    top: 8px;
+}
+
+#header .hamburger .bar::before{
+    bottom: 8px;
+}
+
 
 /* ---- HERO BANNER ----*/
 #hero .hero {
@@ -377,14 +425,6 @@ body {
     #footer .brand h1 span {
         margin-top: 5px; 
     }
-    
-    /* nav {
-        display: none;
-    }
-
-    .mobile-menu {
-        display: block;
-    } */
 }
 
 /* 480px and down */
