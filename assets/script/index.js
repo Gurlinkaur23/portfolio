@@ -1,13 +1,23 @@
-'use strict';
+"use strict";
 
 // Utility functions
 function onEvent(event, selector, callback) {
-    return selector.addEventListener(event, callback);
+  return selector.addEventListener(event, callback);
 }
-  
-  function select(selector, parent = document) {
-    return parent.querySelector(selector);
+
+function select(selector, parent = document) {
+  return parent.querySelector(selector);
 }
 
 // Selections
-const header = select('.header.container');
+const header = select("#header");
+
+// Main code
+onEvent("scroll", document, () => {
+  let scrollPosition = window.scrollY;
+  if (scrollPosition > 250) {
+    header.style.backgroundColor = "#140d00";
+  } else {
+    header.style.backgroundColor = "transparent";
+  }
+});

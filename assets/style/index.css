@@ -58,6 +58,7 @@ body {
   left: 0;
   width: 100%;
   height: auto;
+  transition: 0.3s ease background-color;
 }
 
 #header .header {
@@ -114,6 +115,7 @@ body {
 
 #header .nav-list ul li a:hover {
     color: #c47f00;
+    font-weight: 600;
 }
 
 /* ---- HERO BANNER ----*/
