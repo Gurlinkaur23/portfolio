@@ -39,8 +39,8 @@ body {
 .brand {
     width: 40%;
     margin-right: auto;
-  }
-  
+}
+
 .brand h1 span {
       color: #c47f00;
       text-transform: uppercase;
@@ -298,11 +298,11 @@ body {
 
 /* ---- FOOTER ---- */
 #footer {
-    /* background: linear-gradient(60deg, #29323c 0%, #485563 100%); */
     background-color: #c47f00;
 }
 
 #footer .footer {
+    display: flex;
     min-height: 70px;
 }
 
@@ -361,6 +361,21 @@ body {
 
     #contact .contact-item {
         margin: 10px 0;
+    }
+
+    /* Footer */
+    #footer .footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #footer .brand {
+        width: 100%;
+    }
+
+    #footer .brand h1 span {
+        margin-top: 5px; 
     }
     
     /* nav {
