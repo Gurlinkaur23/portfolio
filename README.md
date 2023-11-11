@@ -30,6 +30,6 @@ Here are my social media links:
 ### Footer
 The footer section contains copyright information.
 
-Thank you for visiting my portfolio! Ready to explore? Dive into my portfolio and discover more about my coding journey and projects: [Gurlin Kaur's Portfolio](YourPortfolioLinkHere).
+Thank you for visiting my portfolio! Ready to explore? Dive into my portfolio and discover more about my coding journey and projects [here](https://gurlinkaur23.github.io/portfolio/).
 
 
