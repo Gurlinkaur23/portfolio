@@ -143,6 +143,7 @@ body {
 
 #hero h1 {
   font-size: 30px;
+  padding: 0 20px;
   position: relative;
   width: fit-content;
   display: block;
@@ -303,20 +304,31 @@ body {
     color: #fff;
 }
 
-/* ------ Media queries ------ */
+/* ------ MEDIA QUERIES ------ */
 
 /* 1200px and down */
 @media (max-width: 1200px) {
-    
+    /* Hero Banner */
+    #hero h1 {
+        font-size: 28px;
+    }
 }
 
 /* 992px and down */
-@media (max-width: 992px) {
-    
+@media (max-width: 992px) { 
+    /* Hero Banner */
+    #hero h1 {
+        font-size: 26px;
+    }
 }
 
 /* 768px and down */
 @media (max-width: 768px) {
+    /* Hero Banner */
+    #hero h1 {
+        font-size: 24px;
+    }
+
     nav {
         display: none;
     }
@@ -328,5 +340,8 @@ body {
 
 /* 480px and down */
 @media (max-width: 480px) {
-   
+    /* Hero Banner */
+    #hero h1 {
+        font-size: 22px;
+    }
 }
